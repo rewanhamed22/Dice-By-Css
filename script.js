@@ -54,8 +54,8 @@ function createCircle(number,dice) {
   }
 }
 
-console.log(createCircle(randomNumber1,dice1));
-console.log(createCircle(randomNumber2,dice2));
+createCircle(randomNumber1,dice1);
+createCircle(randomNumber2,dice2);
 
 if (randomNumber1 == randomNumber2) {
   title.innerHTML = "🚩Match Draw🚩";
